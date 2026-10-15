@@ -20,6 +20,18 @@ Copy this directory (the one containing `ida-plugin.json` and `FunctionLoader.py
 
 Targets are stored in the IDB. Inlining is limited to 64 attempts and 25,000 micro-instructions per MBA. Only calls whose destination Hex-Rays resolves can be inlined.
 
+## Example: `sub_58E2F2`
+
+The screenshots show the same function before and after deobfuscation.
+
+### Before
+
+![Decompiled sub_58E2F2 before deobfuscation](img/sub_58E2F2-before.png)
+
+### After
+
+![Decompiled sub_58E2F2 after deobfuscation](img/sub_58E2F2-after.png)
+
 ## Credits
 
 Author: [tien0246](https://github.com/tien0246).
