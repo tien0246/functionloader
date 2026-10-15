@@ -23,3 +23,7 @@ Targets are stored in the IDB. Inlining is limited to 64 attempts and 25,000 mic
 ## Credits
 
 Author: [tien0246](https://github.com/tien0246).
+
+## License
+
+MIT. See [LICENSE](LICENSE).
