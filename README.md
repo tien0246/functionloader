@@ -9,7 +9,7 @@ FunctionLoader is an IDA Pro plugin that lets an analyst choose functions whose 
 
 ## Installation
 
-Copy the `functionloader/` directory into your IDA user plugins directory, for example `~/.idapro/plugins/` on macOS/Linux. Restart IDA. The package includes `ida-plugin.json` for the Hex-Rays Plugin Manager format.
+Copy this directory (the one containing `ida-plugin.json` and `FunctionLoader.py`) to your IDA user plugins directory as `~/.idapro/plugins/functionloader/` on macOS/Linux. Restart IDA. The package includes `ida-plugin.json` for the Hex-Rays Plugin Manager format.
 
 ## Usage
 
