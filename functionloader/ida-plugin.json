@@ -1,0 +1,30 @@
+{
+  "$schema": "https://hcli.docs.hex-rays.com/schemas/ida-plugin.json",
+  "IDAMetadataDescriptorVersion": 1,
+  "plugin": {
+    "name": "functionloader",
+    "entryPoint": "FunctionLoader.py",
+    "version": "0.1.0",
+    "idaVersions": [
+      "9.5"
+    ],
+    "description": "Select functions and inline resolved calls before Hex-Rays decompiler optimization.",
+    "urls": {
+      "repository": "https://github.com/tien0246/functionloader"
+    },
+    "authors": [
+      {
+        "name": "tien0246",
+        "email": "60417827+tien0246@users.noreply.github.com"
+      }
+    ],
+    "keywords": [
+      "function-inlining",
+      "decompiler",
+      "reverse-engineering"
+    ],
+    "categories": [
+      "decompilation"
+    ]
+  }
+}
